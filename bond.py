@@ -2,7 +2,6 @@ import json
 
 from langchain_ollama import ChatOllama
 
-from prompt import Prompt
 
 class Bond:
     def __init__(self, model="llama3.2:1b", config=None, structured=False):
