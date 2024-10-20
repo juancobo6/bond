@@ -104,7 +104,7 @@ In this example:
 
 ### Output
 
-The output will be a JSON object that follows the structure you defined in the `format` variable. Example:
+The output will be a dictionary that follows the structure you defined in the `format` variable. Example:
 
 ```json
 {
