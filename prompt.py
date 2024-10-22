@@ -16,3 +16,5 @@ class Prompt:
 
     def get(self):
         return str(self)
+
+
