@@ -1,2 +1,2 @@
-from bond import Bond
-from prompt import Prompt
+from .prompt import Prompt
+from .bond import Bond

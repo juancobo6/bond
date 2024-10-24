@@ -14,7 +14,7 @@ class Bond:
         return json.loads(self.model.invoke(prompt.get()).content)
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     idea = """Data Science is a multidisciplinary field that combines various techniques, algorithms, and systems to extract insights and knowledge from structured and unstructured data. It involves a blend of mathematics, statistics, computer science, and domain expertise to analyze and interpret complex data.
                 At its core, data science includes several key processes:
                 Data Collection: Gathering raw data from various sources such as databases, online platforms, sensors, or other technologies.
