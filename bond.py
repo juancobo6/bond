@@ -11,7 +11,11 @@ class Bond:
         return f"Bond({self.model})"
 
     def ask(self, prompt):
-        return json.loads(self.model.invoke(prompt.get()).content)
+        try:
+            response = json.loads(self.model.invoke(prompt.get()).content)
+            return response
+        except:
+            return None
 
 
 if __name__ == "__main__":
